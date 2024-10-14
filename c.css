@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+p {
+    color: rgb(249, 81, 19);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid rgb(8, 8, 8);
+    text-align: center;
+}
+
+.context {
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+}
+
+.top {
+    display: flex;
+    gap: 10px;
+}
+
+#cityname {
+    border: 1px solid orange;
+    border-radius: 5px; 
+    width: 180px;
+}
+
+#btn {
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+#date {
+    background-color: rgb(253, 73, 7);
+    font-weight: bold;
+}
+
+#grey {
+    background-color: rgb(130, 126, 126);
+    color: white;
+}
+
+#white {
+    background-color: white;
+}
+
+#Container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff6c2;
+}
+
+.table {
+    flex-basis: 23%;
+    min-width: 250px;
+}
+
+@media only screen and (max-width: 1024px) {
+    #Container {
+        flex-direction: column;
+    }
+}
